@@ -1,8 +1,8 @@
 version: 2
 jogs:
- build:
-  docker:
-   - image: circleci/openjdk:8-jdk-browsers
-  steps:
-   - checkout
-   - run: echo "Hello CircleCi!"
+  build:
+    docker:
+      - image: circleci/openjdk:8-jdk-browsers
+    steps:
+      - checkout
+      - run: echo "Hello CircleCi!"
